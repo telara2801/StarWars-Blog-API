@@ -162,7 +162,7 @@ def delete_one_user(id1):
 ##///****************************************************************************
 
 
-@app.route('/registro_usuario/', methods=['POST'])
+@app.route('/Favorite_add/', methods=['POST'])
 def add_one_favorite():
      dictionary={}
      body = request.json
